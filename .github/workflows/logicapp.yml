@@ -21,7 +21,7 @@ jobs:
 
       - name: Package logic
         run: | 
-          cd ${{ env.LOGICAPP_PACKAGE_PATH }}}
+          cd ${{ env.LOGICAPP_PACKAGE_PATH }}
           mkdir -p output
           zip -r ./output/logic.zip .
 
